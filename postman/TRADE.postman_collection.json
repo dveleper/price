@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "15c023c9-8b8c-48c7-8df8-45a3cd730e91",
+		"name": "TRADE",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10615237"
+	},
+	"item": [
+		{
+			"name": "getPrice",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"dateIn\": \"2020-06-15-21.00.00\",\r\n    \"productId\": \"35455\",\r\n    \"brandId\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/price",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"price"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
